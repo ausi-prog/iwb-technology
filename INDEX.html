@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWB Technology - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url('./mokorotlo.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">IWB Technology</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-gray-300">home</a></li>
+                    <li><a href="#services" class="hover:text-gray-300">services</a></li>
+                    <li><a href="#stakeholders" class="hover:text-gray-300">stakeholders</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="text-white p-12 text-center rounded-lg shadow-lg m-4 bg-opacity-60">
+        <h2 class="text-5xl font-extrabold mb-4 animate-pulse">Introducing Our New Software Tools!</h2>
+        <p class="mt-2 text-xl">Subscribe now for monthly or yearly plans and boost your tech potential!</p>
+        <a href="#subscriptions" class="mt-6 inline-block bg-white text-blue-700 py-3 px-6 rounded-full font-semibold shadow-md hover:bg-gray-200 transition duration-300 ease-in-out">View Subscriptions</a>
+        <div class="mt-4 flex justify-center space-x-2">
+            <div class="w-3 h-3 bg-white rounded-full animate-bounce"></div>
+            <div class="w-3 h-3 bg-white rounded-full animate-bounce delay-150"></div>
+            <div class="w-3 h-3 bg-white rounded-full animate-bounce delay-300"></div>
+        </div>
+    </section>
+
+    <!-- services Section -->
+    <section id="services" class="p-8 text-white">
+        <h2 class="text-2xl font-semibold mb-4">Our Services</h2>
+        <p>IWB deals with e-waste and recycling to promote sustainability and technological advancement in Southern Africa. Our work is internationally recognized with affiliations with big companies such as:</p>
+        <ul class="list-disc ml-8">
+            <li>Computer Business Solutions</li>
+            <li>Omicron</li>
+            <li>Quadrant</li>
+            <li>Desco Electronics</li>
+        </ul>
+        <h3 class="mt-4">Products We Recycle:</h3>
+        <ul class="list-disc ml-8">
+            <li>RAM</li>
+            <li>Hard Drives</li>
+            <li>Components of Motherboards</li>
+        </ul>
+    </section>
+
+    <!-- stakeholders Section -->
+    <section id="stakeholders" class="p-8 bg-gray-800">
+        <h2 class="text-3xl font-semibold mb-8 text-center text-white">Our Stakeholders</h2>
+
+        <div class="mb-8 p-6 bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold mb-4 text-blue-300">Investors</h3>
+            <ul class="list-disc ml-8 text-white">
+                <li><a href="https://www.cbs.co.ls/" class="text-blue-400 hover:text-blue-600 transition duration-300">Computer Business Solutions</a></li>
+            </ul>
+        </div>
+
+        <div class="mb-8 p-6 bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold mb-4 text-blue-300">Clients</h3>
+            <ul class="list-disc ml-8 text-white">
+                <li><a href="https://www.quadrant.co.ls/contact-us-2/company-profile/contact-us-3/" class="text-blue-400 hover:text-blue-600 transition duration-300">Computer Repairs Company</a></li>
+            </ul>
+        </div>
+
+        <div class="p-6 bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+            <h3 class="text-xl font-semibold mb-4 text-blue-300">Partners</h3>
+            <ul class="list-disc ml-8 text-white">
+                <li><a href="https://desco.co.za/" class="text-blue-400 hover:text-blue-600 transition duration-300">Desco Electronic Recyclers</a></li>
+                <li><a href="https://omicronmw.com/" class="text-blue-400 hover:text-blue-600 transition duration-300">Omicron E-waste Company</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Subscriptions Section -->
+    <section id="subscriptions" class="p-8">
+        <h2 class="text-3xl font-semibold mb-4 text-white bg-blue-900 bg-opacity-70 p-3 rounded-md shadow-lg">
+            Subscription Plans
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Monthly Plan -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Monthly Plan</h3>
+                <p class="mt-2">Access to all software tools with a monthly subscription.</p>
+                <p class="mt-2 text-2xl font-semibold text-green-600">M 350.00</p>
+                <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Subscribe Now</button>
+            </div>
+
+            <!-- Yearly Plan -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Yearly Plan</h3>
+                <p class="mt-2">Get a discount with a yearly subscription.</p>
+                <p class="mt-2 text-2xl font-semibold text-green-600">M 3,500.00</p>
+                <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Subscribe Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact Section -->
+    <section id="contact" class="p-8 bg-gray-200">
+        <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+        <p>Email: info@iwbtech.co.ls</p>
+        <p>Phone: +266 56392696</p>
+        <p>Follow us on social media:</p>
+        <ul class="list-disc ml-8">
+            <li>Facebook: IWBtech</li>
+            <li>Twitter: @IWBtech</li>
+            <li>LinkedIn: IWBtech</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white p-4 text-center">
+        &copy; 2025 IWB Technology. All rights reserved.
+    </footer>
+</body>
+</html>
